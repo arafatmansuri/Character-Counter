@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: #AD88C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+.container{
+    background-color: beige;
+    height: 300px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 12px 15px rgba(0,0,0,0.5);
+    margin: 10px;
+}
+.textarea{
+    width: 100%;
+    height: 100px;
+    resize: none;
+    outline: none;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.counter{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.counter p{
+    font-size: 18px;
+    color: gray;
+}
+.total_care{
+    color: blue;
+}
+.remaining_care{
+    color: red;
+}
